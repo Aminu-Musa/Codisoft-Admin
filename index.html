@@ -23,8 +23,6 @@
             <div>
                 <ul class="side_menu">
 
-
-
                     <li><a href="#dashboard-page" class="active icon"> <svg xmlns="http://www.w3.org/2000/svg"
                                 height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff">
                                 <path
@@ -229,6 +227,70 @@
 
             </div>
             <!-- END--MAIN HEADER SMALL CARDS -->
+
+            <!-- CHART START HERE -->
+            <div class="chart-container">
+
+                <div class="chart-card">
+                    <!-- CHART CANVAS START HERE -->
+                    <div class="chart chart1"><canvas class="myChart1"></canvas></div>
+                    <!-- CHART CANVAS ENDS HERE -->
+
+
+                    <div class="chart-desc">
+                        <h4 class="chart-title">Daily Sales</h4>
+                        <p class="chart_description"> <span> <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 -960 960 960" fill="">
+                                    <path
+                                        d="M440-727 256-544l-56-56 280-280 280 280-56 57-184-184v287h-80v-287Zm0 487v-120h80v120h-80Zm0 160v-80h80v80h-80Z" />
+                                </svg> 55%</span> increase in today's sales</p>
+                    </div>
+                    <div class="chart-footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 -960 960 960" fill="">
+                            <path
+                                d="M480-120q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T120-480q0-75 28.5-140.5t77-114q48.5-48.5 114-77T480-840q82 0 155.5 35T760-706v-94h80v240H600v-80h110q-41-56-101-88t-129-32q-117 0-198.5 81.5T200-480q0 117 81.5 198.5T480-200q105 0 183.5-68T756-440h82q-15 137-117.5 228.5T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z" />
+                        </svg>
+                        <p>updated 4 minutes ago</p>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <!-- CHART CANVAS START HERE -->
+                    <div class="chart chart2"><canvas class="myChart2"></canvas></div>
+                    <!-- CHART CANVAS ENDS HERE -->
+                    <div class="chart-desc">
+                        <h4 class="chart-title">Email Subscription</h4>
+                        <p class="chart_description"> Last Campaign performance</p>
+                    </div>
+                    <div class="chart-footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 -960 960 960" fill="">
+                            <path
+                                d="M480-120q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T120-480q0-75 28.5-140.5t77-114q48.5-48.5 114-77T480-840q82 0 155.5 35T760-706v-94h80v240H600v-80h110q-41-56-101-88t-129-32q-117 0-198.5 81.5T200-480q0 117 81.5 198.5T480-200q105 0 183.5-68T756-440h82q-15 137-117.5 228.5T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z" />
+                        </svg>
+                        <p>Last Campaign sent 2 days ago</p>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <!-- CHART CANVAS START HERE -->
+                    <div class="chart chart3"><canvas class="myChart3"></canvas></div>
+                    <!-- CHART CANVAS ENDS HERE -->
+                    <div class="chart-desc">
+                        <h4 class="chart-title">Completed Tasks</h4>
+                        <p class="chart_description"> Last Campaign performance</p>
+                    </div>
+                    <div class="chart-footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 -960 960 960" fill="">
+                            <path
+                                d="M480-120q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T120-480q0-75 28.5-140.5t77-114q48.5-48.5 114-77T480-840q82 0 155.5 35T760-706v-94h80v240H600v-80h110q-41-56-101-88t-129-32q-117 0-198.5 81.5T200-480q0 117 81.5 198.5T480-200q105 0 183.5-68T756-440h82q-15 137-117.5 228.5T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z" />
+                        </svg>
+                        <p>Campaign sent 2 days ago</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CHART ENDS HERE -->
         </section>
 
         <section id="user-profile-page" class="page">
@@ -236,6 +298,11 @@
             <hr>
         </section>
     </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <script src="./App/app.chart.js"></script>
+    <!-- <script src="./App/script.chart.js"></script> -->
 </body>
 
 </html>
